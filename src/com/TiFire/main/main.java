@@ -8,6 +8,7 @@ import org.sikuli.script.Key;
 import org.sikuli.script.Screen;
 
 import com.TiFire.Controller.CadastroCliente;
+import com.TiFire.Controller.Funcionario_Vendedor;
 
 
 public class main {
@@ -27,7 +28,10 @@ public class main {
 	
 		CadastroCliente c = new CadastroCliente(); 
 		c.CadCli();
-	
+		
+		
+		Funcionario_Vendedor f = new Funcionario_Vendedor();
+		f.FunVen();
 				
 	
 }

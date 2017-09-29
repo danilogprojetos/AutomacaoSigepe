@@ -28,8 +28,9 @@ public class CadastroCliente {
 		executa.type(Key.ENTER);
 		executa.type(Key.ENTER);
 		executa.type("87030140");
+		executa.wait("//tifiresuporte7/Imagens/Sigepe/TelaPad2.png", 10);
 		executa.type(Key.ENTER);
-		executa.paste("Avenida Tiradentes");
+		executa.type("Avenida Tiradentes");
 		executa.type(Key.ENTER);
 		executa.type("441");
 		executa.type(Key.ENTER);
@@ -43,6 +44,8 @@ public class CadastroCliente {
 		executa.paste("contato@tifire.com");
 		executa.type(Key.ENTER);
 		executa.type("09805631940");
+		executa.type(Key.ENTER);
+		executa.paste("110588704");
 		executa.type(Key.ENTER, KeyModifier.CTRL + KeyModifier.SHIFT);
 		executa.type(Key.F4, KeyModifier.ALT);
 
