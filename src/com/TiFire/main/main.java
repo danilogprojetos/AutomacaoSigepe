@@ -8,6 +8,7 @@ import org.sikuli.script.Key;
 import org.sikuli.script.Screen;
 
 import com.TiFire.Controller.CadastroCliente;
+import com.TiFire.Controller.CadastroFornecedor;
 
 
 public class main {
@@ -24,11 +25,12 @@ public class main {
 		executa.paste("f");
 		executa.type(Key.ENTER);
 		executa.wait("//tifiresuporte7/Imagens/Sigepe/AbrirSigepea/Abertura.png", 20);
-	
-		CadastroCliente c = new CadastroCliente(); 
-		c.CadCli();
-	
-				
+		
+		//CadastroCliente c = new CadastroCliente(); 
+		//c.CadCli();
+		executa.wait("//tifiresuporte7/Imagens/Sigepe/TelaPad3.png",10);
+		CadastroFornecedor f = new CadastroFornecedor();
+		f.CadFor();
 	
 }
 
